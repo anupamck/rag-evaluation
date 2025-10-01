@@ -1,0 +1,39 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache
+.ipynb_checkpoints
+
+# Git
+.git
+.gitignore
+
+# OS / Editor
+.DS_Store
+*.swp
+*.swo
+.vscode
+.idea
+
+# Env and secrets
+.env
+.env.*
+
+# Data / outputs
+*.log
+*.csv
+*.parquet
+*.tsv
+*.jsonl
+
+# Node (if present)
+node_modules
+
+# Caches
+.cache
+pip-wheel-metadata
+
+# Virtual environments
+.venv
+venv

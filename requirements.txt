@@ -1,0 +1,15 @@
+beautifulsoup4
+jupyterlab
+ipykernel
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-text-splitters
+langgraph
+openai
+python-dotenv
+ragas
+requests
+tiktoken
+typing_extensions

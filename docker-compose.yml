@@ -1,0 +1,19 @@
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: rag-evaluation:latest
+    container_name: rag-evaluation-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/workspace
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PIP_NO_CACHE_DIR=1
+      # Pass through local env vars if set
+      - OPENAI_API_KEY
+      - LANGCHAIN_API_KEY
+      - LANGSMITH_API_KEY
+      - LANGSMITH_TRACING=true
