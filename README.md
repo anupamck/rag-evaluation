@@ -5,13 +5,16 @@ A rag model is built using the RAG tutorial from Langchain: https://python.langc
 This repo is linked to this [research task](https://github.com/BeyondQuality/beyondquality/blob/main/research/rag-evaluation.md) from the BeyondQuality community. 
 
 ## Setup
+### Configure APIs
 1. Get some credit and an API token from https://platform.openai.com/ (€5 should be more than enough)
 2. Get an account at LangSmith: https://smith.langchain.com/ and create a project
 3. Copy `.env_example` and rename it as `.env`(Should be gitignored) 
 4. Add your API keys and project name from LangSmith to your `.env` file
    
-## Quickstart (via Docker)
-Prerequisite - You need to have installed Docker desktop on your machine. 
+### Quickstart (via Docker)
+#### Prerequisites
+ - Docker desktop installed on local machine. 
+
 1. Build and start Jupyter Lab:
    ```bash
    docker compose up --build
@@ -25,10 +28,14 @@ To stop the server, press Ctrl+C in the terminal or run:
 docker compose down
 ```
 
-## Start without Docker
-## Prerequisites 
+### Start without Docker
+#### Prerequisites 
 - Python 3.10 or newer
 
 1. Install all dependencies in requirements.txt, preferably in a python virtual environment
 2. Open jupyter lab via `jupyter lab`
-3. Execute the code in any of the Jupyter books (start with minimalRag, to follow along with [this LangChain tutorial](https://python.langchain.com/docs/tutorials/rag/#setup) )
+
+## Run the handbook 
+1. Open http://localhost:8888/lab on your browser. 
+2. Open the basecampHandbookRagWithRagas.ipynb in the Jupyter lab UI.
+3. Explore the handbook by running each block using the UI. 
