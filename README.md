@@ -34,7 +34,6 @@ docker compose down
 
 1. Install all dependencies in requirements.txt, preferably in a python virtual environment
 2. Open jupyter lab via `jupyter lab`
-3. Execute the code in any of the Jupyter books (start with minimalRag, to follow along with [this LangChain tutorial](https://python.langchain.com/docs/tutorials/rag/#setup) )
 
 ## Run the handbook 
 1. Open http://localhost:8888/lab on your browser. 
