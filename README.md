@@ -9,7 +9,8 @@ This repo is linked to this [research task](https://github.com/BeyondQuality/bey
 1. Get some credit and an API token from https://platform.openai.com/ (€5 should be more than enough)
 2. Get an account at LangSmith: https://smith.langchain.com/ and create a project
 3. Copy `.env_example` and rename it as `.env`(Should be gitignored) 
-4. Add your API keys and project name from LangSmith to your `.env` file
+4. [optional] change the `LANGSMITH_ENDPOINT` value to the EU endpoint if you have set this as your Langsmith data region
+5. Add your API keys and project name from LangSmith to your `.env` file
    
 ### Quickstart (via Docker)
 #### Prerequisites
